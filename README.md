@@ -53,10 +53,13 @@ Every executable produces a kernel-level report including:
 gcc linrr.c -o ./executables/linrr
 # Example for IPC (requires pthread)
 gcc IPC.c -o ./executables/IPC -pthread
-
+```
 
 ### Windows (MinGW)
+```
 # Example for Scheduling
 gcc winRR.c -o ./executables/winRR.exe
 # Example for IPC (requires psapi for kernel metrics)
 gcc winIPC.c -o ./executables/IPC.exe -lpsapi
+```
+
