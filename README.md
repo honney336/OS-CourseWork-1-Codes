@@ -56,7 +56,7 @@ gcc IPC.c -o ./executables/IPC -pthread
 ```
 
 ### Windows (MinGW)
-```
+```bash
 # Example for Scheduling
 gcc winRR.c -o ./executables/winRR.exe
 # Example for IPC (requires psapi for kernel metrics)
